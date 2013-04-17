@@ -6,7 +6,7 @@ class TagTitle extends Plugin
 	{
 		if ( Controller::get_action() == 'tag_collection' ) 
 		{ 
-			$xml->title = htmlentities(Controller::get_var('tag')) . ' posts'; 
+			$xml->title = htmlentities(Controller::get_var('tag')) . ' - ' . Utils::htmlspecialchars( Options::get( 'title' ) ); 
 		}
 	}
 }
