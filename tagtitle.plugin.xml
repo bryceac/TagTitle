@@ -4,7 +4,7 @@
 <license url="http://opensource.org/licenses/MIT">MIT License</license>
 <author url="http://blog.brycecampbell.me">Bryce C.</author>
 <version>0.1</version>
-<description>This plugin modifies the ATOM feed title of Habari so that the tag is included.</description>
+<description>This plugin modifies the ATOM feed title of Habari so that the tag name is included and description is modified to make it easier to determine what the feed should contain.</description>
 <copyright>2013</copyright>
 <guid>f2b8b31c-e230-4d8b-a014-06edffb470fe</guid>
 </pluggable>
