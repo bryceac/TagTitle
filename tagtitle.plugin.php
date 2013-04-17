@@ -6,7 +6,8 @@ class TagTitle extends Plugin
 	{
 		if ( Controller::get_action() == 'tag_collection' ) 
 		{ 
-			$xml->title =  ucwords(htmlentities(Tags::get_by_slug(Controller::get_var('tag'))->term_display)) . ' - ' . Utils::htmlspecialchars( Options::get( 'title' ) ); 
+			$xml->title =  ucwords(htmlentities(Tags::get_by_slug(Controller::get_var('tag'))->term_display)) . ' - ' . Utils::htmlspecialchars( Options::get( 'title' ) );
+			$xml->subtitle = htmlentities(Tags::get_by_slug(Controller::get_var('tag'))->term_display) . ' posts from ' . Utils::htmlspecialchars( Options::get( 'title' ) );
 		}
 	}
 }
