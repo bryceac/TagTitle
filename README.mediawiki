@@ -1,6 +1,6 @@
 = Tag Title =
 '''Version:''' 0.1
-'''Copyright:''' Bryce Campbell 2013
+'''Copyright:''' 2013 Bryce Campbell
 
 ==Description== 
 
